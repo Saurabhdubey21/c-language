@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
-    int a[]={239,398,454,567,342,453,759 ,543};
-    int i, smallest;
-    for(i=0; i<=7;i++)
+    int A[]={239,454,789,123,987,108,985}; 
+    int i,  smallest;
+    smallest=A[0];
+    for(i=0; i<=6; i++)
     {
-        if(a[i]<smallest){
-            smallest=a[i];
+        if(A[i]<smallest){
+            smallest=A[i];
         }
     }
     printf("smallest number in array: %d\n",smallest);
