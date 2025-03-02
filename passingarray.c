@@ -8,3 +8,11 @@ printf("%d ", matrix[i][j]);
 printf("\n");
 }
 }
+int main() {
+    int matrix[2][3] = {
+    {1, 2, 3},
+    {4, 5, 6}
+    };
+    printMatrix(matrix, 2, 3);
+    return 0;
+    }
